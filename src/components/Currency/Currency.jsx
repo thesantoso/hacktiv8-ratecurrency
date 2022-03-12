@@ -1,8 +1,7 @@
 import React from 'react';
-import './Currency.css';
 
 const Currency = (props) => {
-    return(
+    return (
         <tr>
             <td>{props.currency.name}</td>
             <td>{props.currency.buy}</td>
